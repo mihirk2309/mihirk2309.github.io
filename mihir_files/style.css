@@ -1159,8 +1159,10 @@ li a:hover{
 
 .company-logo {
   float: right;
-  height: auto;
-  width: auto;
+  height: 100px;
+  width: 160px;
+  object-fit: contain;
+  object-position: center;
 }
 
 .exp-desc {
